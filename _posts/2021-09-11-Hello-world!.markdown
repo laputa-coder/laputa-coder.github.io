@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Hello world!"
-date:   2021-09-11 08:42:35 +0800
+date:   2021-09-11 08:42
 categories: [日志] 
-tags:   [test,hello world]
+tags: []
 ---
 Hello there!
 
