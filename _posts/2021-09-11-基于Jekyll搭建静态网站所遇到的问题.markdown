@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "基于Jekyll搭建静态网站所遇到的问题"
+date:   2021-09-11 08:42
+categories: [日志] 
+tags: []
+---
+
+1. cannot load such file -- webrick (LoadError)
+
+   $ bundle add webrick
+
+2. rb:201:in ‘bind’: Permission denied - bind(2) for 127.0.0.1:4000 (Errno::EACCES)
+
+   这是由于端口占用所导致的。
+
+   $ jekyll serve --baseurl=’’ --port 9090
+
+
